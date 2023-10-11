@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'purrfectpawss'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F5BDD3F3AFF422CA0309CF6A291A618 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0ED41955C7294FE28E5EB55C63EEA3A6 }}
           package: .
