@@ -1,0 +1,35 @@
+.navBar {
+    grid-area: nav-Bar;
+}
+
+.cart {
+    grid-area: cart;
+    align-items: stretch;
+    padding-top: 10px;
+}
+
+.bill {
+    grid-area: bill;
+    align-items: stretch;
+}
+
+.shipping-form {
+    grid-area: shipping-form;
+    padding-top: 10px;
+}
+
+.payment-form {
+    grid-area: payment-form;
+}
+
+.checkout-container {
+    display: grid;
+    grid-template-areas: 
+    'navBar navBar navBar navBar navBar'
+    'cart cart cart shipping-form shipping-form'
+    'cart cart cart payment-form payment-form'
+    'bill bill bill bill bill'
+    'bill bill bill bill bill';
+    gap: 5px;
+    padding: 5px;
+}
